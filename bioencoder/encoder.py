@@ -2,7 +2,7 @@ import re, sys, os, platform,warnings
 import math
 import numpy
 from collections import Counter
-from utils import *
+from .utils import *
 def NUM(sequence):
     AA = 'ARNDCQEGHILKMFPSTWYV-'
     code = []

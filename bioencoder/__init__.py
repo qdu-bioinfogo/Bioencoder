@@ -1,5 +1,5 @@
-from encoder import *
-from utils import *
+from .encoder import *
+from .utils import *
 import numpy as np
 
 def get_data(fname,label,method="None",window_size=15,encode_window_size=5):
