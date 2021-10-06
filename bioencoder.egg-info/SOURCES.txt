@@ -1,0 +1,11 @@
+setup.py
+bioencoder/__init__.py
+bioencoder/exceptions.py
+bioencoder/utils.py
+bioencoder.egg-info/PKG-INFO
+bioencoder.egg-info/SOURCES.txt
+bioencoder.egg-info/dependency_links.txt
+bioencoder.egg-info/not-zip-safe
+bioencoder.egg-info/top_level.txt
+bioencoder/data/AAindex.txt
+bioencoder/data/PAAC.txt
