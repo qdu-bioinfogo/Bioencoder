@@ -21,5 +21,5 @@ window_size = 12
 pos_seqList,pos_labellist,pos_seqNamelist=get_data(pos_data,1,method="GAAC",window_size=window_size)
 ```
 ## 作者
-张淋
+张淋 王宣文
 
