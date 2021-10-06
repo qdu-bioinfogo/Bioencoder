@@ -1,5 +1,6 @@
 # Bioencoder
 > 一个面向机器学习的氨基酸序列编码工具
+
 ## 简介
 一个面向机器学习的氨基酸序列编码工具，主要有如下特点：
 - 面向机器学习，返回numpy类型数据，无需处理
@@ -21,4 +22,4 @@ pos_seqList,pos_labellist,pos_seqNamelist=get_data(pos_data,1,method="GAAC",wind
 ```
 ## 作者
 张淋
- 
+
