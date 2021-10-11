@@ -14,11 +14,30 @@ python setup.py sdist
 pip install ./dist/bioencoder-beta.tar.gz
 ```
 ## 使用方法
+### 使用Fasta文件
+#### Fasta文件示例
+```text
+>1|1
+DGMRITLRDGCIVHLRASGNAPELRCYAEANLLNRAQDLVNTTLANIKKRC
+>2|1
+EGKLSMLQNTIKRLASLSTEEPVVICNDRHRFLVAEQLREIDKLANNIILE
+````
+#### 代码示例
 ```python
 from bioencoder import *
 pos_data = "pos.fasta"
 window_size = 12
 pos_seqList,pos_labellist,pos_seqNamelist=get_data(pos_data,1,method="GAAC",window_size=window_size)
+```
+### str输入
+#### str 示例
+```python
+str = 'DGMRITLRDGCIVHLRASGNAPELRCYAEANLLNRAQDLVNTTLANIKKRC'
+```
+#### 代码示例
+```python
+from bioencoder.encoder import *
+print(EAAC(seq,window=5))
 ```
 ## 作者
 张淋 王宣文
