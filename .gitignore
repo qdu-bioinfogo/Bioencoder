@@ -1,2 +1,3 @@
 bioencoder/__pycache__/*
 dist/*
+.history/
