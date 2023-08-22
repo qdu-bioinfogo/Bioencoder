@@ -2,6 +2,8 @@
 
 An amino acid sequence encoding toolbox for machine learning.
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8273413.svg)](https://doi.org/10.5281/zenodo.8273413)
+
 ## Introduction
 
 main features:
