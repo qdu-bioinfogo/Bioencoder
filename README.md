@@ -18,8 +18,8 @@ main features:
 ### Via PIP
 
 ```bash
-python setup.py sdist
-pip install ./dist/bioencoder-beta.tar.gz
+python setup.py bdist_wheel
+pip install ./dist/bioencoder-1.0.0-py3-none-any.whl
 ```
 
 ## Usage
