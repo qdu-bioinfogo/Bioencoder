@@ -1,2 +1,0 @@
-class NoWindowSizeException(Exception):
-    pass
